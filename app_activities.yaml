@@ -1,0 +1,17 @@
+# Services for multipage Streamlit app
+-
+  name: 'Home Page'
+  description: 'Home page'
+  url: "home.py"
+
+-
+  name: 'Data Overview'
+  description: 'Overall data overview'
+  url: "overview.py"
+
+- 
+  name: 'Data Processing'
+  description: 'Processing page'
+  url: "processing.py"
+
+# Add as required
