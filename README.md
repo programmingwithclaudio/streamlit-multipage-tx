@@ -1,6 +1,6 @@
 # Streamlit Multipage App - En Curso
 
-[![App Preview](https://i.postimg.cc/wvTKJmTs/Screenshot-from-2024-05-07-11-03-18.png)](https://app-multipage-tx-diip.streamlit.app/)
+[![Screenshot-from-2024-05-07-15-22-46.png](https://i.postimg.cc/Jnykh5dz/Screenshot-from-2024-05-07-15-22-46.png)](https://postimg.cc/R6BFsKBk)
 
 ¡Dale like y suscríbete! [ProgrammingWithClaudio YouTube Channel](https://www.youtube.com/@programmingwithclaudio/videos) para más contenido relacionado.
 
