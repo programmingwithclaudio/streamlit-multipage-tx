@@ -8,6 +8,9 @@
 
 Este proyecto es una aplicación multipágina desarrollada con Streamlit, que proporciona una interfaz interactiva para visualizar datos.
 
+### Imagenes de la Aplicación:
+- Photo by <a href="https://lottiefiles.com/lv06s75t3bahnm4s">BHavishyam Verma</a> on <a href="https://lottiefiles.com/animations">LottieFiles</a>
+
 ## Características
 
 - Interfaz intuitiva y fácil de usar.
@@ -31,11 +34,14 @@ git clone git@github.com:programmingwithclaudio/streamlit-multipage-tx.git
 2. Ejemplo de despliegue con Docker:
 
 ```bash
+# Directorio de la repo.
 docker build -t test25-app .
 docker run --rm -it -p 8051:8051 test25-app
 ```
 
 ¡Explora la aplicación en [https://app-multipage-tx-diip.streamlit.app/](https://app-multipage-tx-diip.streamlit.app/)!
+
+
 
 ## Contribución
 
