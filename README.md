@@ -8,7 +8,7 @@
 
 Este proyecto es una aplicación multipágina desarrollada con Streamlit, que proporciona una interfaz interactiva para visualizar datos.
 
-### Imagenes de la Aplicación:
+### Imágenes de la Aplicación:
 - Photo by <a href="https://lottiefiles.com/lv06s75t3bahnm4s">BHavishyam Verma</a> on <a href="https://lottiefiles.com/animations">LottieFiles</a>
 
 ## Características
