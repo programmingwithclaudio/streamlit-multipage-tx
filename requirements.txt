@@ -12,3 +12,5 @@ altair==4.2.0
 PyYAML==6.0
 numpy==1.21.3
 streamlit-antd-components>=0.3.0
+streamlit-lottie==0.0.5
+
