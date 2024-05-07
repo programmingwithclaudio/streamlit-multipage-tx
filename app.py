@@ -9,8 +9,16 @@ st.set_page_config(
     initial_sidebar_state='expanded',
 )
 
+# Use local class 
+
+def local_css(file_name):
+    with open(file_name, 'r', encoding='utf-8') as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+local_css('public/style/style.css')
+
+
 def load_activities(filepath):
-    with open(filepath, 'r') as file:
+    with open(filepath, 'r', encoding='utf-8') as file:
         activities = yaml.safe_load(file)
     return activities
 
@@ -20,7 +28,7 @@ def run():
     LOGO_SIDEBAR_URL = "https://github.com/programmingwithclaudio/MVP_ML_TransporteNY/blob/main/public/hd.jpg?raw=true"
 
     if LOGO_SIDEBAR_URL: 
-        st.sidebar.image(
+                         st.sidebar.image(
             LOGO_SIDEBAR_URL,             
             caption='DATA-DIIP'
         )

@@ -1,0 +1,19 @@
+Model year,Make,Model,Vehicle class,Motor (kW),City (kWh/100 km),City (Le/100 km),Range (km),Recharge time (h),Market Value ($),CO2 emissions (g/mi)
+2023,Chevrolet,Bolt EUV,Station wagon: Small,150,16.8,1.9,397,7.5,31000,96.48416397312
+2023,Hyundai,Kona Electric,Sport utility vehicle: Small,150,15.5,1.8,415,9.5,35000,89.0181274752
+2023,Kia,Soul EV (180 Ah),Station wagon: Small,150,16.9,1.9,383,9.5,33000,97.05847447295999
+2023,Mercedes-Benz,EQB 250+,Sport utility vehicle: Small,140,18.5,2.1,394,7.75,55000,106.2474424704
+2024,BMW,"i4 eDrive35 Gran Coupe (18"" Wheels)",Subcompact,210,17.2,1.9,444,7.0,50000,98.78140597248
+2024,BMW,"i4 eDrive40 Gran Coupe (18"" Wheels)",Subcompact,250,19.1,2.1,484,8.0,55000,109.69330546944002
+2024,Chevrolet,Equinox EV,Sport utility vehicle: Small,180,17.9,2.0,513,9.4,30000,102.80157947136
+2024,Ford,Mustang Mach-E Standard Range,Sport utility vehicle: Small,197,19.7,2.2,402,7.1,43000,113.13916846848
+2024,Genesis,Electrified G80,Full-size,272,19.9,2.2,454,9.0,60000,114.28778946815999
+2024,Kia,"EV6 Land AWD (20"" Wheels)",Sport utility vehicle: Small,239,19.9,2.2,406,8.4,36000,114.28778946815999
+2024,Kia,Niro EV,Sport utility vehicle: Small,150,16.8,1.9,407,7.5,45000,96.48416397312
+2024,Polestar,"2 Single Motor (19"" Wheels)",Mid-size,220,16.8,1.9,515,8.0,35000,96.48416397312
+2024,Polestar,"2 Single Motor (20"" Wheels)",Mid-size,220,17.4,2.0,494,8.0,47000,99.93002697216
+2024,Tesla,Model 3 RWD,Mid-size,192,15.0,1.7,438,8.5,60000,86.146574976
+2024,Tesla,Model Y RWD,Sport utility vehicle: Small,203,16.3,1.8,418,8.0,44000,93.61261147392001
+2024,Volkswagen,ID.4,Sport utility vehicle: Small,150,18.2,2.0,332,6.0,48000,104.52451097088002
+2024,Volkswagen,ID.4 Pro,Sport utility vehicle: Small,210,17.1,1.9,468,8.0,35000,98.20709547264002
+2024,Volvo,C40 Recharge Twin,Sport utility vehicle: Small,300,19.8,2.2,414,8.0,50000,113.71347896832002
