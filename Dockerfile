@@ -7,9 +7,23 @@ WORKDIR /app
 # Copiar el contenido del directorio actual al contenedor
 COPY . .
 
+# Actualizar pip y setuptools
+RUN pip install --upgrade pip setuptools
+
+# Instalar las dependencias del sistema
+RUN apt-get update && apt-get install -y \
+    libjpeg-dev \
+    zlib1g-dev \
+    libtiff-dev \
+    libfreetype6-dev \
+    liblcms2-dev \
+    libwebp-dev \
+    tcl8.6-dev \
+    tk8.6-dev \
+    python-tk
+
 # Instalar las dependencias y Streamlit
-RUN pip install --upgrade pip && \
-    pip install --no-cache-dir -r requirements.txt && \
+RUN pip install --no-cache-dir -r requirements.txt && \
     pip install --no-cache-dir streamlit
 
 # Etapa final
@@ -27,5 +41,5 @@ COPY --from=builder /usr/local/bin /usr/local/bin
 EXPOSE 8501
 
 # Comando para ejecutar la aplicación Streamlit
-CMD ["streamlit", "run", "streamlit_app.py"]
+CMD ["streamlit", "run", "app.py"]
 
