@@ -4,23 +4,18 @@ FROM python:3.9-slim-buster AS builder
 # Establecer el directorio de trabajo
 WORKDIR /app
 
-# Copiar el contenido del directorio actual al contenedor
-COPY . .
-
 # Actualizar pip y setuptools
 RUN pip install --upgrade pip setuptools
 
 # Instalar las dependencias del sistema
 RUN apt-get update && apt-get install -y \
-    libjpeg-dev \
-    zlib1g-dev \
-    libtiff-dev \
-    libfreetype6-dev \
-    liblcms2-dev \
-    libwebp-dev \
-    tcl8.6-dev \
-    tk8.6-dev \
-    python-tk
+    build-essential \
+    python3-dev \
+    python3-pip \
+    python3-numpy
+
+# Copiar el contenido del directorio actual al contenedor
+COPY . .
 
 # Instalar las dependencias y Streamlit
 RUN pip install --no-cache-dir -r requirements.txt && \
