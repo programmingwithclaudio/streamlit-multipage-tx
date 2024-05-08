@@ -10,12 +10,21 @@
   url: "overview.py"
 
 - 
-  name: 'Data Processing'
-  description: 'Processing page'
-  url: "processing.py"
-
-- 
   name: 'Exploratory Data Analysis (EDA)'
   description: 'Exploratory page'
   url: "exploratory.py"
-# Add as required
+
+- 
+  name: 'Modeling Predictions'
+  description: 'Predictions page'
+  url: "ml.py"
+
+- 
+  name: 'Modeling Investors'
+  description: 'Invertors page'
+  url: "investors.py"
+
+- 
+  name: 'EcoMave Investors'
+  description: 'Stations page'
+  url: "stations.py"

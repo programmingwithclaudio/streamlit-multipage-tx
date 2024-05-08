@@ -2,3 +2,7 @@
 directorio.txt
 Dockerfile_end
 activities/__pycache__
+env.toml
+.env
+activities/utils/__pycache__
+activities/utils/__pycache__/funcs.cpython-39.pyc

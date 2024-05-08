@@ -11,6 +11,24 @@ from glob import glob
 import pandas as pd
 from activities.utils import funcs
 from glob import glob
+import pickle
+import io
+import pyarrow.parquet as pq
+
+import toml
+
+env_data = toml.load('env.toml')
+key = os.getenv("MAPQUESTAPI")
+
+
+
+
+
+# Cargar modelos
+MODELOS = {
+    "XGBoost": "public/datasets/models/modelo_xgb.parquet",
+    "Gradient Boosting": "public/datasets/models/modelo_gb.parquet"
+}
 
 
 
