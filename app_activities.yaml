@@ -24,7 +24,3 @@
   description: 'Invertors page'
   url: "investors.py"
 
-- 
-  name: 'EcoMave Investors'
-  description: 'Stations page'
-  url: "stations.py"

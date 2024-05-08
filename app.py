@@ -15,9 +15,8 @@ import pickle
 import io
 import pyarrow.parquet as pq
 
-import toml
 
-env_data = toml.load('env.toml')
+#env_data = toml.load('env.toml')
 
 
 
@@ -44,10 +43,11 @@ def local_css(file_name):
 local_css('public/style/style.css')
 
 
-api_url = 'https://www.mapquestapi.com/directions/v2/route?'
-search_url = 'https://www.mapquestapi.com/search/v2/radius?'
-traffic_url = 'https://www.mapquestapi.com/traffic/v2/incidents?'
-key = env_data['MAPQUESTAPI']['key']
+#api_url = 'https://www.mapquestapi.com/directions/v2/route?'
+
+#search_url = 'https://www.mapquestapi.com/search/v2/radius?'
+#traffic_url = 'https://www.mapquestapi.com/traffic/v2/incidents?'
+#key = env_data['MAPQUESTAPI']['key']
 
 
 def load_activities(filepath):

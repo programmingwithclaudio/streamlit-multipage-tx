@@ -6,3 +6,5 @@ env.toml
 .env
 activities/utils/__pycache__
 activities/utils/__pycache__/funcs.cpython-39.pyc
+activities/utils/__pycache__/.*
+
