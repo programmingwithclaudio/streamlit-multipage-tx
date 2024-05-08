@@ -14,4 +14,8 @@
   description: 'Processing page'
   url: "processing.py"
 
+- 
+  name: 'Exploratory Data Analysis (EDA)'
+  description: 'Exploratory page'
+  url: "exploratory.py"
 # Add as required

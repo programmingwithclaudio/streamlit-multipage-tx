@@ -7,6 +7,12 @@ import json
 import PIL
 from PIL import Image
 import base64
+from glob import glob
+import pandas as pd
+from activities.utils import funcs
+from glob import glob
+
+
 
 st.set_page_config(
     layout='wide',
@@ -21,6 +27,8 @@ def local_css(file_name):
     with open(file_name, 'r', encoding='utf-8') as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 local_css('public/style/style.css')
+
+
 
 
 def load_activities(filepath):
