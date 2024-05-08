@@ -9,7 +9,7 @@ Este proyecto es una aplicación multipágina desarrollada con Streamlit, que pr
 
 ### Imágenes de la Aplicación:
 - Photo by <a href="https://lottiefiles.com/lv06s75t3bahnm4s">BHavishyam Verma</a> on <a href="https://lottiefiles.com/animations">LottieFiles</a>
-
+- Photo by <a href="https://postimg.cc/Wqt79h0P">App Claudio Quispe</a> on <a href="https://postimages.org/">postimg.cc</a>
 ## Características
 
 - Interfaz intuitiva y fácil de usar.
