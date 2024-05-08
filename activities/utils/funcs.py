@@ -6,9 +6,6 @@ import pickle
 import io
 import pyarrow.parquet as pq
 import streamlit as st
-import toml
-
-env_data = toml.load('env.toml')
 
 
 def cargar_datos(ruta_archivos):
@@ -245,10 +242,7 @@ def calcular_rentabilidad_media(numero_vehiculos):
 
 
 
-api_url = 'https://www.mapquestapi.com/directions/v2/route?'
-search_url = 'https://www.mapquestapi.com/search/v2/radius?'
-traffic_url = 'https://www.mapquestapi.com/traffic/v2/incidents?'
-key = env_data['MAPQUESTAPI']['key']
+
 
 def find_charging_stations(origin, destination):
     route_url = api_url + urllib.parse.urlencode({"key": key, "from": origin, "to": destination})

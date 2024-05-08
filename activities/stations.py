@@ -2,9 +2,6 @@ import streamlit as st
 import requests
 import urllib
 import os
-from dotenv import load_dotenv
-import toml
-
 
 st.title('EcoMove')
 
