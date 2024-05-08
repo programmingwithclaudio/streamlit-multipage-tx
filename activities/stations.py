@@ -5,13 +5,6 @@ import os
 from dotenv import load_dotenv
 import toml
 
-env_data = toml.load('env.toml')
-
-
-api_url = 'https://www.mapquestapi.com/directions/v2/route?'
-search_url = 'https://www.mapquestapi.com/search/v2/radius?'
-traffic_url = 'https://www.mapquestapi.com/traffic/v2/incidents?'
-key = env_data['MAPQUESTAPI']['key']
 
 st.title('EcoMove')
 
