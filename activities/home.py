@@ -137,7 +137,7 @@ with st.container():
         },
         {
             "nombre": "Duván Robayo",
-            "profesion": "Data Architec",
+            "profesion": "Data Architect",
             "github": "https://github.com/duvanroarq",
             "linkedin": "https://www.linkedin.com/in/duvanroarq/",
             "imagen_link": "public/images/duvan.jpg",

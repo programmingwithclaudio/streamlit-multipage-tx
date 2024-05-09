@@ -1,30 +1,29 @@
 import streamlit as st
-import pyarrow.parquet as pq
-import pickle
+import streamlit as st
 import io
 import pandas as pd
 import warnings
+from activities.utils import funcs
 
 # Suprimir advertencias de deprecación
 warnings.filterwarnings("ignore")
 
 st.header("Análisis de Modelos Machine Learning")
 
-# Cargar modelos
-MODELOS = {
-    "XGBoost": "public/datasets/models/modelo_xgb.parquet",
-    "Gradient Boosting": "public/datasets/models/modelo_gb.parquet"
-}
-
 
 def main():
     st.title("MoviPlus Estimator")
 
+
+    # Cargar modelos
+    MODELOS = {
+        "XGBoost": "public/datasets/models/modelo_xgb.parquet",
+        "Gradient Boosting": "public/datasets/models/modelo_gb.parquet"
+    }
+
     # Selección del modelo
     modelo_seleccionado = st.selectbox("Seleccionar modelo:", list(MODELOS.keys()))
 
-    # Cargar el modelo seleccionado
-    modelo = funcs.cargar_modelo(MODELOS[modelo_seleccionado])
 
     # Entrada de datos
     st.subheader("Ingrese los datos para la predicción:")

@@ -19,15 +19,6 @@ import pyarrow.parquet as pq
 #env_data = toml.load('env.toml')
 
 
-
-# Cargar modelos
-MODELOS = {
-    "XGBoost": "public/datasets/models/modelo_xgb.parquet",
-    "Gradient Boosting": "public/datasets/models/modelo_gb.parquet"
-}
-
-
-
 st.set_page_config(
     layout='wide',
     page_title='DIIP',
